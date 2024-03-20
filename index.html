@@ -44,9 +44,53 @@
     <img width="50" height="50" src="/imgs/explo4ersmath.png">
 </p>
 
-     <p align="center">
-  <img width="280" height="55" src="/imgs/Explo4ersmathfont.png">
-</p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spinning Text Effect</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text {
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: transparent;
+        text-shadow: 0 0 5px white;
+        animation: spin 10s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="text">Explo4ersMath</div>
+</div>
+</body>
+</html>
+
 	  
     <h2>Explo4ersMath - Awesome Stuff Online :)</h2>
   <h3>Motd: thats not even me lmfao -Szvy</h3>
