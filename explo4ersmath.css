@@ -203,16 +203,16 @@ p.brunys img:hover {
 
 
 button {
-padding: 10px 20px;
-background-color: black;
-color: white;
-border: 1px solid white;
-border-radius: 10px;
-border: 2px solid white;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-transition: transform 0.1s, box-shadow 0.3s;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.3s;
 }
 
 display: inline-block;
