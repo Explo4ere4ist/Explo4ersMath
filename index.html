@@ -89,7 +89,7 @@
         }
         </script>
 
-   <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -184,8 +184,18 @@
         canvas.height = window.innerHeight;
         init();
     });
+
+    canvas.addEventListener('click', function (event) {
+        const size = Math.random() * 5 + 1;
+        const x = event.clientX;
+        const y = event.clientY;
+        const directionX = (Math.random() - 0.5) * 0.5;
+        const directionY = (Math.random() - 0.5) * 0.5;
+        const color = 'white';
+
+        particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
+    });
 </script>
 </body>
 </html>
 
-   the start of the actual page starts here:
